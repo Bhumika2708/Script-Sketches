@@ -43,3 +43,10 @@ console.log(typeof isLoggedIn)
        Arrays  =>  object
        Function  =>  function
        Object  =>  object */
+
+
+// **********************************************************
+//stack (primitive) => variable declared will get copy
+// Heap (Non-Primitive) => varibale declared will get reference 
+
+let myName= "Breezyb27.com"
