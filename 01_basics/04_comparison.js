@@ -16,6 +16,6 @@ console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
 
-// === 
+// === => check 
 
 console.log("2" === 2);
