@@ -1,4 +1,4 @@
-//var c = 300
+/*var c = 300
 let a = 300
 if (true) {
     let a = 10
@@ -44,15 +44,50 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+/*console.log(addone(5))
 
 function addone(num){
     return num + 1
 }
 
-
-
-addTwo(5)
 const addTwo = function(num){
     return num + 2
+*/
+
+function one(){
+    const username="Breezy"
+
+    function two(){
+        const website =" youtube"
+        console.log(username);
+
+    }
+    // console.log(website);
+    two()
 }
+// one()/
+
+if(true){
+    const username="breezy"
+    if(username === "breezy" ){
+        const website =" youtube"
+        //console.log(username +  website)
+    }
+    //  console.log(website);
+}
+// console.log(username);
+
+
+//+++++++++++++++++++++++++++++++
+console.log(addone(5)) // will print it without error
+
+function addone(num){
+    return num + 1
+}
+
+addTwo(5)
+const addTwo = function(num){ //error as declared also
+  
+  return num + 2
+}
+

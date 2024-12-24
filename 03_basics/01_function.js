@@ -18,7 +18,7 @@ function sayMyName(){
 function addTwoNumbers(number1, number2){
 
     // let result = number1 + number2
-    // return result
+    // re turn result
     return number1 + number2
 }
 
@@ -67,4 +67,6 @@ function returnSecondValue(getArray){
 }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+// console.log(returnSecondValue([200, 400, 500, 1000]));
+
+ 
